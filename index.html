@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <script type="text/javascript" src="FileSaver.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div style="text-align: center; margin-top: 200px;">
+            <label for="tamanho" style="font-size: 20pt;">Digite quantos digitos deseja na sua senha: </label>
+            <input style="font-size: 13pt;" id="tamanho" name="tamanho" type="number" min="8" max="126" value="8"/>
+            <button style="font-size: 13pt;" onclick='gerarSenha()'>Gerar senha</button>
+            <button style="font-size: 13pt;" onclick='salvarSenha()'>Salvar senha</button>
+        </div>
+    </body>
+</html>
